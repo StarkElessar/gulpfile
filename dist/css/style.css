@@ -1,0 +1,32 @@
+body {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../img/avatar-resume.jpg") 0 0/cover no-repeat;
+}
+
+h1 {
+  font-size: 36px;
+  color: red;
+}
+
+span {
+  font-size: 20px;
+}
+
+div {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 15px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+}
+
+.webp body { background: url(../img/avatar-resume.webp) 0 0/cover no-repeat; }
